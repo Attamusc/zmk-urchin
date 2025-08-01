@@ -88,12 +88,11 @@
 			key-positions = <32 33>;
 			bindings = <&mo SYS>;
 		};
-
-		// left ring and index finger
-		combo_aero {
+		// left index and pointer finger
+		combo_esc {
 			timeout-ms = <200>;
-			key-positions = <11 12>;
-			bindings = <&mo AERO>;
+			key-positions = <12 13>;
+			bindings = <&kp ESC>;
 		};
 	};
 
