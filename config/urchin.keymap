@@ -17,8 +17,7 @@
 #define SYM_LEFT 3
 #define NUM 4
 #define UTIL 5
-#define AERO 6
-#define SYS 7
+#define SYS 6
 
 #define QUICK_TAP_MS 175
 
