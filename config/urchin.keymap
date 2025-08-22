@@ -87,11 +87,23 @@
 			key-positions = <32 33>;
 			bindings = <&mo SYS>;
 		};
-		// left index and pointer finger
+		// left index and middle finger
 		combo_esc {
 			timeout-ms = <50>;
 			key-positions = <12 13>;
 			bindings = <&kp ESC>;
+		};
+		// right index and middle finger one row down
+		combo_meh {
+			timeout-ms = <50>;
+			key-positions = <26 27>;
+			bindings = <&kp LC(LS(LALT))>;
+		};
+		// right middle and ring finger one row down
+		combo_hypr {
+			timeout-ms = <50>;
+			key-positions = <27 28>;
+			bindings = <&kp LG(LC(LS(LALT)))>;
 		};
 	};
 
