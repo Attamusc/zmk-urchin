@@ -93,14 +93,26 @@
 			key-positions = <12 13>;
 			bindings = <&kp ESC>;
 		};
+		// left middle and ring finger one row down
+		combo_hypr_l {
+			timeout-ms = <50>;
+			key-positions = <22 23>;
+			bindings = <&kp LG(LC(LS(LALT)))>;
+		};
+		// left index and middle finger one row down
+		combo_meh_l {
+			timeout-ms = <50>;
+			key-positions = <23 24>;
+			bindings = <&kp LC(LS(LALT))>;
+		};
 		// right index and middle finger one row down
-		combo_meh {
+		combo_meh_r {
 			timeout-ms = <50>;
 			key-positions = <26 27>;
 			bindings = <&kp LC(LS(LALT))>;
 		};
 		// right middle and ring finger one row down
-		combo_hypr {
+		combo_hypr_r {
 			timeout-ms = <50>;
 			key-positions = <27 28>;
 			bindings = <&kp LG(LC(LS(LALT)))>;
@@ -120,12 +132,12 @@
 //        ├───┼───┼──────────┼───────────────┼──────┤   ├─────────────┼───────────────┼──────────┼───┼──────┤
 //        │ Z │ X │    C     │       V       │  B   │   │      N      │       M       │    ,     │ . │ ent  │
 //        └───┴───┴──────────┼───────────────┼──────┤   ├─────────────┼───────────────┼──────────┴───┴──────┘
-//                           │     lgui      │ lsft │   │ lt UTIL spc │ mt lctlTL tab │
+//                           │  mt lgui f12  │ lsft │   │ lt UTIL spc │ mt lctlTL tab │
 //                           └───────────────┴──────┘   └─────────────┴───────────────┘
       &kp Q   &kp W   &kp E       &kp R             &kp T            &kp Y            &kp U            &kp I       &kp O     &kp P
       &kp A   &kp S   &lt NAV D   &lt SYM_RIGHT F   &kp G            &kp H            &lt SYM_LEFT J   &lt NUM K   &kp L     &kp BSPC
       &kp Z   &kp X   &kp C       &kp V             &kp B            &kp N            &kp M            &kp COMMA   &kp DOT   &kp ENTER
-                                  &kp LGUI          &kp LSHIFT       &lt UTIL SPACE   &mt LCTL TAB
+                                  &mt LGUI F12      &kp LSHIFT       &lt UTIL SPACE   &mt LCTL TAB
       >;
     };
     nav {
