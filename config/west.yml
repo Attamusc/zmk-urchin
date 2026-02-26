@@ -6,16 +6,17 @@ manifest:
       # bravekarma
     - name: caksoylar
       url-base: https://github.com/caksoylar
-      # nice-view-gem
-    - name: m165437
-      url-base: https://github.com/M165437
+      # nice-view-gem (using fork with fix for zmk_endpoint_get_selected rename until
+      # https://github.com/M165437/nice-view-gem/pull/22 is merged)
+    - name: solotitan
+      url-base: https://github.com/solotitan
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: nice-view-gem
-      remote: m165437
-      revision: main
+      remote: solotitan
+      revision: ca8b2528d905cf668ebe3ee183d658b437a74025
   self:
     path: config
