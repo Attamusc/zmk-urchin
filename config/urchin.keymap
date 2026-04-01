@@ -96,13 +96,13 @@
 		// left middle and ring finger one row down
 		combo_hypr_l {
 			timeout-ms = <50>;
-			key-positions = <22 23>;
+			key-positions = <21 22>;
 			bindings = <&kp LG(LC(LS(LALT)))>;
 		};
 		// left index and middle finger one row down
 		combo_meh_l {
 			timeout-ms = <50>;
-			key-positions = <23 24>;
+			key-positions = <22 23>;
 			bindings = <&kp LC(LS(LALT))>;
 		};
 		// right index and middle finger one row down
@@ -230,7 +230,7 @@
 //                                     └──────┴──────┘   └──────┴──────────────────────┘
       ____   &kp COLON   &kp QMARK   &kp EXCL   ____       ____   _HYPR(LEFT)        _HYPR(UP)              _HYPR(RIGHT)   ____
       ____   _1PASS      _RAYCAST    &kp ESC    ____       ____   &sk LGUI           &sk LCTL               &sk LSHIFT     &sk LALT
-      ____   ____        ____        ____       ____       ____   &sk LC(LS(LALT))   &sk LG(LC(LS(LALT)))   ____           ____
+      ____   ____        ____        ____       ____       ____   &kp F13   ____   ____           ____
                                      ____       ____       _XXX   ____
       >;
     };
